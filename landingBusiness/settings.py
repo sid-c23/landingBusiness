@@ -25,7 +25,7 @@ SECRET_KEY = '*n06_t%ma(a-sss@&zj0^y(=jclng^*-z3%06uez-zywole(0='
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['simplelanding.com', 'localhost', '127.0.0.1']
+ALLOWED_HOSTS = ['simplelanding.com', 'localhost', '127.0.0.1', 'simple-landing.herokuapp.com']
 
 
 # Application definition
