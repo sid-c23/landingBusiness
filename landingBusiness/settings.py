@@ -25,7 +25,7 @@ SECRET_KEY = '*n06_t%ma(a-sss@&zj0^y(=jclng^*-z3%06uez-zywole(0='
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['sic23.ddns.net', 'localhost', '127.0.0.1', 'simple-landing.herokuapp.com']
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
