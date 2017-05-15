@@ -1,0 +1,33 @@
+{% extends 'base.html' %}
+{% load crispy_forms_tags %}
+{% block content %}
+    <div class="jumbotron">
+        <h1 class="text-center">Start Selling. Today.</h1>
+        <p class="lead text-center">Stop messing around and start making money today.</p>
+    </div>
+    <div class="row">
+        <div class="col-md-6">
+            <p class="lead text-center">Get your FREE copy of the 10 best tips to start making a business by entering your email.</p>
+        </div>
+        <div class="col-md-6">
+            <p class="lead text-center">We get it. It's hard to get your start. But with this list you will have a sure-fire plan at making money.</p>
+        </div>
+    </div>
+    <br/>
+    <br/>
+        {% if submitted %}
+            <div class="row">
+                <p class="lead text-center">Thank you! Your pdf will be sent to the email you provided.</p>
+            </div>
+        {% else %}
+            <div class="row">
+                <div class="form">
+                    {% crispy form %}
+                </div>
+            </div>
+        {% endif %}
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+{% endblock %}
